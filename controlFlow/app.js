@@ -19,3 +19,4 @@ if(num > 100 ) {
 } else (num>0) ;{
     console.log ("Negative number")
 }
+

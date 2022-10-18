@@ -1,4 +1,10 @@
-//my favorite cats
-const cats = ['Odin', 'Meowcolm X', 'Lynx', 'Melon', 'Finn'];
+// Setup
+const myArray = [];
 
-cats.forEach (cat -> console.log (cats));
+// Only change code below this line
+let i = 0;
+while (i < 35) {
+  myArray.push(i);
+  i++;
+}
+console.log(myArray);

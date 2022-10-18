@@ -59,20 +59,83 @@
 //     stamina: 'Infinity'
 // }
 
-class Character {
-    //constructor
-    constructor(){
-        this.legs = 2;
-        this.arms = 2; 
-        this.eyes = 'Hazel';
-        this.hair = "Gray"
-    }
-    greet(otherCharacter) {
-        console.log('hi ' + otherCharacter + '!');
-    }
-}
+// class Character {
+//     //constructor
+//     constructor(name, age, eyes, hair, lovesCats = false, lovesDogs){
+//         this.legs = 2;
+//         this.arms = 2; 
+//         this.name = name;
+//         this.age = age;
+//         this.eyes = 'Hazel';
+//         this.hair = "Gray"
+//     }
+//     greet(otherCharacter) {
+//         console.log('hi ' + otherCharacter + '!');
+//     }
+// }
 
-const p1 = new Character();
-const enemy = new Character();
-console.log(Character);
-console.log(p1.greet('bob'));
+// const p1 = new Character();
+// const enemy = new Character();
+// console.log(Character);
+
+// class Character {
+//     constructor (name, age, eyes, hair, lovesCats = true, lovesDogs) {
+//       this.legs = 2;
+//       this.arms = 2;
+//       this.name = name;
+//       this.age = age;
+//       this.eyes = eyes;
+//       this.hair = hair;
+//       this.lovesCats = lovesCats;
+//       this.lovesDogs = lovesDogs || true;
+//     }
+//     greet (otherCharacter) {
+//       console.log('hi ' + otherCharacter + '!');
+//     }
+//     classyGreeting (otherClassyCharacter) {
+//       console.log('Howdy ' + otherClassyCharacter.name + '!');
+//     }
+//     setHair (hairColor) {
+//       this.hair = hairColor;
+//     }
+//     smite () {
+//       console.log('i smited thee.');
+//     }
+  
+//   }
+
+//   class Hobbit extends Character {
+//     steal () {
+//         console.log("Let's get away")
+//     }
+//   }
+//    const hobbit = new Character('Mr Baggins', 33, 'brown', 'black')
+//   console.log(frodo);
+//   console.log(frodo.steal)
+// class Character {
+//     constructor (name, age, eyes, hair, lovesCats = true, lovesDogs) {
+//       this.legs = 2;
+//       this.arms = 2;
+//       this.name = name;
+//       this.age = age;
+//       this.eyes = eyes;
+//       this.hair = hair;
+//       this.lovesCats = lovesCats;
+//       this.lovesDogs = lovesDogs || true;
+//     }
+//     greet (otherCharacter) {
+//       console.log('hi ' + otherCharacter + '!');
+//     }
+//     classyGreeting (otherClassyCharacter) {
+//       console.log('Howdy ' + otherClassyCharacter.name + '!');
+//     }
+//     setHair (hairColor) {
+//       this.hair = hairColor;
+//     }
+//     smite () {
+//       console.log('i smited thee.');
+//     }
+  
+//   }
+//    const hobbit = new Character('Mr Baggins', 33, 'brown', 'black')
+//   console.log(hobbit);
